@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.bisho.mktba.DetailActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:textColor="#fff"
+        android:id="@+id/book_name"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="المؤلف : "
+        android:id="@+id/auther_name"
+        android:layout_marginRight="8dp"
+        android:layout_below="@+id/book_name"
+        android:textColor="#fff"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="الموضوع : "
+        android:id="@+id/subject"
+        android:layout_marginRight="8dp"
+        android:layout_below="@+id/auther_name"
+        android:textColor="#fff"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="كود الكتاب : "
+        android:layout_marginRight="8dp"
+        android:textColor="#fff"
+        android:id="@+id/code"
+        android:layout_below="@+id/subject"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="رقم الإيداع : "
+        android:layout_marginRight="8dp"
+        android:textColor="#fff"
+        android:id="@+id/entering_code"
+        android:layout_below="@+id/code"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="عدد النسخ : "
+        android:layout_marginRight="8dp"
+        android:textColor="#fff"
+        android:id="@+id/copies"
+        android:layout_below="@+id/entering_code"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mktbalogo"
+        android:padding="16dp"
+        android:layout_below="@id/copies"/>
+
+</RelativeLayout>

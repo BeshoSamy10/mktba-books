@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Mktba</string>
+    <string name="search_hint">أدخل إسم كتاب</string>
+    <string name="father_samuel">تحت إشراف القس صموئيل مترى</string>
+    <string-array name="spinner_values">
+        <item>تفاسير</item>
+        <item>سير قديسات</item>
+        <item>سير قديسين</item>
+        <item>رهبنة</item>
+        <item>آبائيات</item>
+        <item>مسابقات</item>
+        <item>المجلات</item>
+        <item>أطفال</item>
+        <item>قصص</item>
+        <item>لغات</item>
+        <item>الكتاب المقدس</item>
+        <item>تاريخ الكنيسة</item>
+        <item>خدمة</item>
+        <item>مشورة</item>
+        <item>روحى موضوعات</item>
+        <item>روحى فضائل</item>
+        <item>رذائل</item>
+        <item>لاهوت</item>
+        <item>الطوائف المسيحية</item>
+        <item>بدع و هرطقات</item>
+        <item>عقيدة</item>
+        <item>طقس</item>
+    </string-array>
+
+</resources>
